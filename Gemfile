@@ -29,6 +29,11 @@ gem 'jbuilder', '~> 1.2'
 
 gem "rspec-rails", "~> 2.14.0"
 
+gem 'bootstrap-sass'
+
+gem 'bootstrap-will_paginate'
+
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

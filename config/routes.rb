@@ -1,4 +1,6 @@
 TestApp::Application.routes.draw do
+  resources :users # sets up entire tabel of correspondences 
+
  
   root :to => 'static_pages#home', via: :get
 
